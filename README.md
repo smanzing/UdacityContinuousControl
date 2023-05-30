@@ -81,7 +81,7 @@ as submodule. The repository is only used for installation purposes.
 The folder **rl_lib** contains the library that implements the agent and the algorithms for training the agent: 
 
 - [a2c_training.py](rl_lib/a2c_training.py): The file contains the main function **a2c_training** for training the agent. 
-- [a2c_agent.py](rl_lib/a22_agent.py): Implementation of the agent that interacts and learns from the environment. 
+- [a2c_agent.py](rl_lib/a2c_agent.py): Implementation of the agent that interacts and learns from the environment. 
                                The member function **learn** implements the A2C algorithm.
 - [a2c_model.py](rl_lib/a2c_model.py): Neural network models for the actor and critic.
 
