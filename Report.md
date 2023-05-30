@@ -46,7 +46,7 @@ distribution that is parametrized by mean and variance, see also [[1]](#1). In t
 the variance can be either learned or kept constant at 1 (see also [Shangtong Zhang's repository on deep RL](https://github.com/ShangtongZhang/DeepRL)). 
 In the case the variance is learned, the actor network outputs two real number vectors representing the mean and scalar variance. 
 
-The separate critic networks has two linear layers with ReLu activation functions, see the table below.
+The separate critic network has two linear layers with ReLu activation functions, see the table below.
 
 The combined actor-critic network has different output layers for the mean, variance, and the value estimate, see also 
 the table below.
