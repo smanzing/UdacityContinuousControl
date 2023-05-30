@@ -25,6 +25,8 @@ over 100 consecutive episodes.
 Follow the instructions below to set up your python environment to run the code in this repository.
 Note that the installation was only tested for __Mac__.
 
+0. Download the repository and enter the root directory.
+
 1. Initialize the git submodules in the root folder of this repository. 
 
 	```bash
